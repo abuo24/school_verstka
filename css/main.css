@@ -1,0 +1,762 @@
+.se-pre-con {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url("./../img/Preloader_1.gif") center no-repeat #fff;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Poppins', "Tw Cen MT" !important;
+}
+
+img {
+    width: 100%;
+}
+
+.form-control {
+    font-size: .8rem !important;
+}
+
+header {
+    min-height: 600px;
+    background-image: url("./../img/imagehead.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: .8;
+    z-index: 0;
+}
+
+.for_home {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    width: 1300px;
+    height: 600px;
+    background-image: linear-gradient(45deg, rgba(34, 59, 152, 1) 0%, transparent 60%);
+    z-index: 111111111111111111;
+}
+
+.navbar-brand {
+    transition: .4s ease all;
+}
+
+.logo {
+    width: 60px;
+}
+
+.logo_part {
+    position: absolute;
+    display: inline-block;
+    width: 40px;
+    top: 50px;
+    left: 80px;
+
+}
+
+.navbar-brand:hover {
+    /*color: rgb(241, 99, 35) !important;*/
+}
+
+header .nav-link {
+    margin-top: 27px;
+    transition: .3s linear all;
+    font-size: 20px;
+}
+
+header .nav-link:hover {
+    color: rgb(241, 99, 35) !important;
+}
+
+header .row {
+    margin-top: 80px !important;
+
+}
+
+header .title {
+    font-size: 50px;
+}
+
+header .number {
+    color: rgb(241, 99, 35);
+}
+
+.start {
+    margin-top: 30px;
+    margin-left: 10px;
+    border-radius: 30px !important;
+    border: 1px solid white !important;
+    width: 150px;
+    text-align: center;
+    transition: .3s ease all;
+}
+
+.start:hover {
+    background-color: rgb(241, 99, 35) !important;
+    border: 1px solid rgb(241, 99, 35) !important;
+}
+
+.news-title:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: rgb(241, 99, 35);
+    z-index: -1;
+    top: 100px;
+    left: 0;
+}
+
+.news-title {
+    background-color: white;
+    display: inline-block;
+    width: 500px;
+    height: 120px;
+    padding: 0 20px;
+    margin-top: 65px;
+}
+
+.news {
+    position: relative;
+}
+
+.forborder {
+    position: relative;
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, .05);
+    border-radius: 3px;
+    transition: .4s ease all;
+}
+
+.forborder:hover {
+    zoom: 1.01;
+    transform: scale(1.05,1.05);
+}
+.forborder img {
+    transition: 2s ease al;
+    position: relative;
+    height: 171px!important;
+}
+/*.forborder img::before {*/
+/*    content: '25$';*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 60px;*/
+/*    height: 25px;*/
+/*    background-color: rgb(241, 99, 35) ;*/
+/*    z-index: 1;*/
+/*}*/
+
+.forborder .for_img_position {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    /*width: 70px;*/
+    height: 20px;
+    background-color: rgba(241, 99, 35, .9);
+    color: white;
+    font-size: 13px!important;
+    padding: 0px 10px;
+    font-weight: 200;
+    text-align: left;
+
+}
+.for_name {
+    font-weight: 300;
+
+}
+
+.for_title {
+    margin-top: 15px;
+    font-size: 15px;
+    padding: 0px 20px 0px 20px;
+}
+
+.linear {
+    width: 100%;
+    margin: 0 auto;
+    background-color: blue;
+    height: 3px;
+}
+
+.slash {
+    font-weight: 100;
+    font-size: 50px;
+}
+
+.slash:nth-of-type(1) {
+    color: gainsboro;
+}
+
+.slash:nth-of-type(2) {
+    color: rgb(241, 99, 35);
+}
+
+.slash:nth-of-type(3) {
+    color: deepskyblue;
+}
+
+.text-statistic {
+    color: rgb(241, 99, 35) !important;
+}
+
+.button-statistic {
+    background-color: rgb(241, 99, 35);
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, .2);
+    width: 200px;
+    border-radius: 40px !important;
+    letter-spacing: 3px;
+}
+.button-statistic:hover {
+    background-color: white;
+    color: rgb(241, 99, 35)!important;
+    box-shadow: 2px 2px 5px 0 rgb(241, 99, 35);
+}
+.team {
+    position: relative;
+}
+
+.team-events {
+    background-image: url(./../img/fon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /*margin-top: 300px!important;*/
+}
+
+.event-title {
+    color: rgb(241, 99, 35);
+}
+
+.event-hour {
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 2px;
+    max-height: 80px;
+}
+
+.event-day {
+    font-size: 30px;
+    font-family: "Tw Cen MT";
+}
+
+.event-time {
+    font-size: 13px;
+}
+
+hr {
+    border-top: 1px solid rgba(255, 255, 255, .6) !important;
+}
+
+.team {
+    z-index: 3 !important;
+}
+
+.time-until {
+    font-size: 10px;
+    margin: 0 !important;
+}
+
+.card {
+    border: 1px solid white !important;
+}
+
+#session-card {
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, .1) !important;
+}
+
+.for-abstract-linear::before {
+    position: absolute;
+    content: '';
+    top: 161px;
+    right: -41px;
+    background-image: url("./../img/c1.png");
+    background-size: 100%;
+    width: 40px;
+    height: 300px;
+    z-index: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+}
+
+.for-abstract-linear::after {
+    position: absolute;
+    content: '';
+    top: 405px;
+    right: -50px;
+    background-image: url("./../img/c2.png");
+    background-size: 100%;
+    width: 300px;
+    height: 40px;
+    z-index: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+}
+
+.session-button {
+    background-color: rgb(241, 99, 35);
+    color: white;
+    width: 100% !important;
+    border-color: rgb(241, 99, 35) !important;
+    font-size: 15px;
+    font-weight: 200 !important;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    transition: .4s ease all;
+}
+.session-button:hover {
+    color: black;
+    background-color: white;
+    /*font-weight: 300 !important;*/
+}
+
+.time-counter {
+    background: linear-gradient(to bottom, rgb(76, 70, 141) 0%, rgb(76, 70, 141) 50%, rgb(56, 49, 127) 50%, rgb(56, 49, 127) 100%);
+    width: 45px !important;
+    height: 45px !important;
+    font-size: 20px;
+}
+
+.event-footer {
+    font-size: 10px !important;
+    margin-bottom: 0 !important;
+}
+
+.team-status {
+    background-image: linear-gradient(to bottom, rgb(250, 250, 250) 0%, rgb(250, 250, 250) 80%, rgb(255, 255, 255) 80%, rgb(255, 255, 255) 100%);
+    position: relative;
+    min-width: 600px !important;
+}
+
+.team-status::after {
+    content: '';
+    position: absolute;
+    top: -138px;
+    left: 0;
+    width: 100%;
+    height: 140px;
+    z-index: -1;
+    background-color: rgb(250, 250, 250);
+}
+
+.author-image {
+    width: 250px !important;
+    height: 340px !important;
+    border-radius: 3px;
+    box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, .1);
+}
+
+.status-title {
+    color: rgb(40, 43, 57);
+}
+
+.status-author {
+    color: rgb(241, 99, 35);
+}
+
+.author-work {
+    font-size: 12px;
+}
+
+.tns-controls {
+    position: absolute;
+    top: 330px;
+    z-index: 32222;
+    right: 540px;
+    display: inline-block;
+}
+
+.tns-nav {
+    display: none;
+}
+
+button[data-action="stop"] {
+    display: none !important;
+    width: 0 !important;
+}
+
+button[data-action="start"] {
+    display: none !important;
+    width: 0 !important;
+}
+
+.btn-pn {
+    border-radius: 50% !important;
+    color: white !important;
+    border: 1px solid rgb(241, 99, 35) !important;
+    background-color: rgb(241, 99, 35) !important;
+    transition: .5s ease all;
+    margin-left: 10px;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, .2);
+}
+
+.btn-pn:hover {
+    color: black !important;
+    background-color: white !important;
+}
+
+.for-dot:before {
+    content: '"';
+    position: absolute;
+    top: 15px;
+    left: 590px;
+    z-index: 0;
+    font-family: "Playball";
+    color: rgb(240, 240, 240);
+    font-size: 180px;
+}
+
+.for-steve::after {
+    content: "";
+    position: absolute;
+    top: 80px;
+    left: 70px;
+    width: 250px;
+    height: 340px;
+    z-index: -2;
+    border-radius: 3px;
+    background-image: url("./../img/stevefon.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.for-steve::before {
+    content: "";
+    position: absolute;
+    top: 90px;
+    left: 70px;
+    width: 250px;
+    height: 330px;
+    z-index: -1;
+    border-radius: 3px;
+    background-color: rgba(78, 78, 192, .5);
+}
+
+.for-bill::after {
+    content: "";
+    position: absolute;
+    top: 80px;
+    left: 70px;
+    width: 250px;
+    height: 340px;
+    z-index: -2;
+    border-radius: 3px;
+    background-image: url("./../img/in-billgates.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.for-bill::before {
+    content: "";
+    position: absolute;
+    top: 85px;
+    left: 70px;
+    width: 250px;
+    height: 330px;
+    z-index: -1;
+    border-radius: 3px;
+    background-color: rgba(78, 78, 192, .5);
+}
+
+.for-abstract::before {
+    content: "";
+    position: absolute;
+    top: 90px;
+    left: 205px;
+    width: 250px;
+    height: 330px;
+    z-index: -3;
+    background-image: url("./../img/fdfd.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.for-abstract::after {
+    content: "";
+    position: absolute;
+    top: 200px;
+    left: 120px;
+    width: 250px;
+    height: 330px;
+    z-index: -3;
+    background-image: url("./../img/fdfd.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.teacher-img {
+    border-radius: 3px;
+    box-shadow: 7px 7px 10px 0 rgba(0, 0, 0, 0.1);
+    width: 185px !important;
+    height: 220px !important;
+    transition: .4s ease all;
+}
+
+.card_title_name {
+    display: block;
+    padding: 20px 0 0 0 !important;
+    font-size: 13px;
+    /*margin-top: 20px!important;*/
+}
+
+.card_title_science {
+    display: block;
+    color: rgb(241, 99, 35);
+    font-weight: 300;
+    font-size: 15px;
+    padding: 5px 0;
+}
+
+.card_title_about {
+    display: block;
+    font-weight: 200;
+    font-size: 11px;
+}
+
+.teacher_title_warning {
+    color: rgb(241, 99, 35);
+    font-weight: 300;
+    margin-bottom: -0px;
+}
+
+.teacher_title_home {
+    font-weight: bold;
+}
+
+.teacher-img {
+    transition: 2s ease all !important;
+}
+
+.card-img:hover.card-img::before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 35px;
+    width: 185px;
+    height: 220px;
+    border-radius: 3px;
+    z-index: 1;
+    background-image: linear-gradient(45deg, rgba(126, 126, 216, .8), rgba(211, 206, 203, .5));
+}
+
+.teacher-messangers * {
+    position: absolute;
+    top: 60px;
+    left: 75px;
+    color: white;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    color: white;
+    z-index: -1;
+}
+
+.card-img:hover .teacher-messangers *:nth-of-type(1) {
+    top: 60px;
+    left: 40px;
+    z-index: 11;
+}
+
+.card-img:hover .teacher-messangers a {
+    width: 0;
+    height: 0;
+}
+
+.card-img:hover .teacher-messangers i {
+    border-radius: 50%;
+    border: 1px solid white;
+    transition: .4s ease all;
+}
+
+.card-img:hover .teacher-messangers *:nth-of-type(2) {
+    top: 60px;
+    left: 75px;
+    z-index: 11;
+}
+
+.card-img:hover .teacher-messangers *:nth-of-type(3) {
+    top: 60px;
+    left: 110px;
+    z-index: 11;
+}
+
+.teacher-messangers i:hover {
+    background-color: rgb(241, 99, 35);
+    border: 1px solid transparent !important;
+}
+
+.contact {
+    width: 1320px;
+    height: 500px;
+    background-image: url("./../img/no_bg_nd.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact_logo {
+    width: 30px !important;
+    display: inline-block;
+    /*position: static;*/
+}
+
+.connect_title_home {
+    color: white;
+    display: inline-block;
+    position: absolute;
+    top: 65px;
+    left: 80px;
+    /*padding-top: 80px;*/
+    /*margin-top: 60px;*/
+}
+
+.connect_title_status {
+    font-size: 13px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, .8) !important;
+    font-style: italic;
+    margin-top: 12px;
+}
+
+.contact_home_connect {
+    position: relative;
+}
+
+.contact_home_title {
+    text-align: center;
+}
+
+.connect_button {
+    background-color: rgb(241, 99, 35);
+    border-radius: 70px;
+    width: 200px;
+    padding: 12px;
+    position: absolute;
+    top: 10px;
+    right: 135px;
+    transition: .4s ease all;
+    border: 1px solid rgb(241, 99, 35);
+}
+.connect_button:hover {
+    border: 1px solid rgba(255,255,255,.4);
+    background-color: transparent;
+}
+
+.connect_input {
+    border-radius: 70px;
+    margin-left: 150px;
+    background-color: transparent;
+    padding: 35px 25px;
+    color: white !important;
+    font-style: italic;
+    border: 1px solid rgba(255, 255, 255, .2);
+}
+
+.connect_input::placeholder {
+    color: white;
+    font-weight: 300;
+}
+
+.connect_input:focus {
+    background-color: transparent;
+}
+
+.contact_info {
+    color: rgba(255, 255, 255, .7);
+    font-weight: 200;
+}
+
+.contact_info_title {
+    color: white !important;
+    font-weight: 400;
+}
+
+.contact_info_address_home, .contact_info_email_home, .contact_info_phone_home {
+    color: white;
+    font-weight: 300;
+}
+
+.contact_messangers i {
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 50%;
+    color: white !important;
+    border: 1px solid white;
+    transition: .3s linear all;
+}
+
+.contact_messangers .for_pad {
+    padding: 8px 11px;
+}
+
+.contact_messangers i:hover {
+    background-color: rgb(241, 99, 35) !important;
+    border-color: rgb(241, 99, 35) !important;
+    /*color: black;*/
+}
+
+.for_position {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.for_footer {
+    width: 1320px;
+    background-color: rgba(32, 31, 91, .8);
+    position: absolute;
+    bottom: -69px;
+    left: -15px;
+    padding: 10px 100px;
+}
+
+.for_footer span {
+    display: block;
+    text-align: center;
+    font-weight: 300;
+}
+
+.for_footer span a {
+    color: rgba(255, 255, 255, .7);
+    transition: .8s ease all;
+}
+
+#button {
+    display: inline-block;
+    background-color: rgb(241, 99, 35);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 80px;
+    right: 50px;
+    transition: background-color .3s,  opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 12;
+    color: white;
+}
+#button i {
+    padding: 8px 10px;
+}
+#button:hover {
+    cursor: pointer;
+    background-color: #333;
+
+}
+#button:active {
+    background-color: #555;
+}
+.show {
+    opacity: 1!important;
+    visibility: visible!important;
+}
